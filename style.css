@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #000;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('Dark\ wallpaper\ 1920x1080\ ·①\ Download\ free\ awesome\ full\ HD\ backgrounds\ for\ desktop\ and\ mobile\ devices\ in\ any\ resolution_\ desktop\,\ Android\,\ iPhone\,\ iPad\ 1920x1080\,\ 320x480\,\ 1680x1050\,\ 1280x900\ etc_\ WallpaperTag.jpg')
+}
+
+ul{
+    /* height: 500px; */
+    /* width: ; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    align-items: start;
+    justify-content: center;
+    /* align-items: start; */
+}
+
+ul>li{
+    list-style-type: none;
+    border-radius: 20px;
+    padding-block: 5px;
+    padding-inline: 15px;
+    /* display: inline-block; */
+    background-color: white;
+    margin: 20px;
+    font-size: 1.7rem;
+    text-align: end;
+    text-decoration: none;
+    transition-duration:0.3s ;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav>ul>li>a:hover{
+    color: rgb(87, 83, 83);
+}
+.heading{
+    margin-block: 140px;
+}
+
+.heading>h2{ 
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 500;
+    
+}
+.intro{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.intro>h2{
+    font-weight:500;
+    margin-block:10px ;
+}
+
+li:hover{
+    transform: translateY(-3.5px);
+    transform:scale(0.8);
+}
